@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PimpMyLaser</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">
+        This app should give you an estimate of the height of an object by calculating\n
+        its height from two values: The distance to the objects top and the angle to the\n
+        objects top.\n
+        This app is intended to be used with a laser rangefinder.\n
+        This app comes withouth any kind of warranty implied.\n
+        If you die because of this app i dont care.\n
+        The accurance of this app depends on your phone sensors. On Android phones, the sensor\n
+        accurancy varies from phone model to phone model. On some phones this app might not work.\n
+        <b>How to use</b>\n
+        1. click on next below\n
+        2. point the top of your phone slightly up. The displayed angle should increase.\n
+        3. put your laser on the marking on the phone, so laser and phone top point at the same spot\n
+        4. measure the distance to the top spot you want to measure\n
+        5. while keeping the top spot in the lasers center, click "save angle" on your phone\n
+        6. enter the distance your laser measured\n
+        7. this app should give you an approximate height of the object. the more accurate you \n
+        point, the more accurate the reading.\n
+        8. the last measured values can be checked in the menue: just select last measurements there.\n
+        <b>For better results</b>\n
+        This app is using your phones magnetometer. it wont be accurate with strong magnetic fields close.
+        Dont use close to power lines, speakers, strong magnetic fields.\n
+        Measure multiple times. the whole measuring process is pretty error prone. You might tilt your phone while trying
+        to hit the "save angle" button or you might have hit the wrong spot with your laser or you might have moved your laser on the phone surface while
+        trying to measure. Use both hands.
+
+        <b>always throw multiple rocks to be shure.</b>
+    </string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="current_angle">Current Angle: %1$.2f</string>
+    <string name="calculated_height">Calculated Height: %1$.2f</string>
+    <string name="save_distance_button">SAVE DISTANCE</string>
+    <string name="distance_input_label">Enter measured distance:</string>
+    <string name="go_measure">Go Measure</string>
+    <string name="show_last">Show last</string>
+    <string name="delete_all_measurements">delete all measurements</string>
+    <string name="show_instructions">show Instructions</string>
+</resources>

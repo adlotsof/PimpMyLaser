@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.trsonn.pimpmylaser.MainActivity">
+    <item
+        android:id="@+id/action_measure"
+        android:title="@string/go_measure"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_add_box_black_24dp" />
+    <item
+        android:id="@+id/action_see_last"
+        android:orderInCategory="1"
+        android:title="@string/show_last"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_all"
+        android:orderInCategory="200"
+        android:title="@string/delete_all_measurements"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_instructions"
+        android:orderInCategory="100"
+        android:title="@string/show_instructions"
+        app:showAsAction="never" />
+
+</menu>
