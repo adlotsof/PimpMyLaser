@@ -1,7 +1,7 @@
 # PimpMyLaser
 use your phone to enable your regular cheap laser range finder to find out the height of an object. 
 
-##How to use
+## How to use
 
 Simply start the app. Skip the instructions by hitting the "next" button.
 Turn on your range finder and place it on the red rectangle on the right side of the screen, facing "up" the phone
